@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 public class task_3 {
 
@@ -34,8 +35,12 @@ public class task_3 {
     }
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter n: ");
+        int n = scanner.nextInt();
+
         Random random = new Random();
-        int[] array = new int[10];
+        int[] array = new int[n];
 
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100);
