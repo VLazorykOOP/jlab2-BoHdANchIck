@@ -53,5 +53,6 @@ public class task_3 {
 
         System.out.println("Вorted array:");
         System.out.println(Arrays.toString(array));
+        scanner.close();
     }
 }
